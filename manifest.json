@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark Tool",
+    "version": "1.0.0",
+    "author": "Le Truong An",
+    "description": "Create bookmark with one click",
+    "permissions": [
+        "tabs", "bookmarks", "contextMenus"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "img/star_icon_16.png",
+        "32": "img/star_icon_32.png",
+        "48": "img/star_icon_48.png",
+        "128": "img/star_icon_128.png"
+    }
+}
